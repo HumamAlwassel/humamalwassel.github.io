@@ -1,40 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Academic</title>
+    <title>Projects on Humam Alwassel</title>
     <link>https://humamalwassel.github.io/project/</link>
-    <description>Recent content in Projects on Academic</description>
+    <description>Recent content in Projects on Humam Alwassel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Your Name</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Humam Alwassel</copyright>
+    <lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://humamalwassel.github.io/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Action Search: Targets in Untrimmed Videos and Its Application to Temporal Action Localization [2017]</title>
+      <link>https://humamalwassel.github.io/project/action_search/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://humamalwassel.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://humamalwassel.github.io/project/action_search/</guid>
+      <description>&lt;p&gt;State-of-the-art approaches for video-based tasks inefficiently search the entire video for specific targets. Despite the encouraging progress these methods achieve, it is crucial to design automated approaches that only explore parts of the video which are the most relevant to the given task. To address such needs, we propose the new problem of &lt;em&gt;target spotting&lt;/em&gt; in video, which we define as finding a specific target in a video sequence while observing a small portion of that video. Inspired by the observation that humans are extremely efficient and accurate in finding individual targets in video, we propose &lt;em&gt;Action Search&lt;/em&gt;, a novel Recurrent Neural Network approach that mimics the way humans spot targets in untrimmed video sequences. Moreover, to address the absence of data recording the behavior of human annotators, we put forward the &lt;em&gt;Human Searches&lt;/em&gt; dataset, a new dataset composed of the search sequences of human annotators for the AVA and THUMOS14 datasets. We consider temporal action localization as an application of the target spotting problem. Experiments on the THUMOS14 dataset reveal that our model is not only able to explore the video efficiently (observing on average &lt;strong&gt;17.3%&lt;/strong&gt; of the video) but also accurately find human activities with &lt;strong&gt;30.8%&lt;/strong&gt; mAP, outperforming state-of-the-art methods.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://humamalwassel.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>FPEAnalysis: Automating Floating Point Error Analysis [2016]</title>
+      <link>https://humamalwassel.github.io/project/fpeanalysis/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://humamalwassel.github.io/project/example-external-project/</guid>
-      <description></description>
+      <guid>https://humamalwassel.github.io/project/fpeanalysis/</guid>
+      <description>&lt;p&gt;Manual floating-point error analysis of scientific computing code is tedious and error-prone. Under the supervision of &lt;a href=&#34;http://www.cs.cornell.edu/~bindel/&#34; target=&#34;_blank&#34;&gt;Professor David Bindel&lt;/a&gt; of computer science at Cornell University, I conducted my research to automated these analyses using the “1+ δ” error model and developed the &lt;em&gt;FPEAnalysis&lt;/em&gt; software system. &lt;em&gt;FPEAnalysis&lt;/em&gt; analyzes a piece of code, automatically reports any numerically unstable subexpressions, and gives insights for resolving these instabilities. The system can detect numerical instabilities in many textbook examples, leading Professor Bindel to use the system as an educational tool for his introductory scientific computing course.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/HumamAlwassel/FPEAnalysis&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gates App: A Central SDN Controller for Gates Hall Network [2015]</title>
+      <link>https://humamalwassel.github.io/project/gates_app/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/project/gates_app/</guid>
+      <description>&lt;p&gt;Software-defined networking (SDN) is a relatively new paradigm for network management that allows a software-based controller to communicate with the individual network components to create optimal end-to-end routing policies. Following his recent development of the new NetKAT network language, &lt;a href=&#34;http://www.cs.cornell.edu/~jnfoster/&#34; target=&#34;_blank&#34;&gt;Professor Nate Foster&lt;/a&gt; of computer science at Cornell University supervised my independent study project to learn about this emerging new research field. This independent study concluded in the development of &lt;em&gt;Gates App&lt;/em&gt;, an SDN controller for the 28-switch network of Gates Hall, home of Cornell’s computer science department. &lt;em&gt;Gates App&lt;/em&gt; employs the &lt;a href=&#34;http://www.frenetic-lang.org/&#34; target=&#34;_blank&#34;&gt;Frenetic Project&lt;/a&gt; libraries to perform Ethernet routing and host discovery for a dynamically changing network.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/frenetic-lang/tutorials/tree/gates_app&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ParEx: A Parallel Extrapolation Solver for Initial-Value ODEs [2015]</title>
+      <link>https://humamalwassel.github.io/project/parex/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/project/parex/</guid>
+      <description>&lt;p&gt;State-of-the-art extrapolation-based solvers for ordinary differential equations (ODEs) are implemented sequentially. In my undergraduate research internship with &lt;a href=&#34;https://www.kaust.edu.sa/en/study/faculty/david-ketcheson&#34; target=&#34;_blank&#34;&gt;Professor David Ketcheson&lt;/a&gt; of applied mathematics at King Abdullah University of Science and Technology, I exploited the fact that under certain conditions, high-order extrapolation methods naturally admit an efficient multi-processor implementation. Thus, I developed &lt;em&gt;ParEx&lt;/em&gt;, an efficient shared-memory parallel implementation of explicit extrapolation methods for solving initial-value ODEs. Using a novel optimal load-balancing algorithm with adaptive step size and order control, &lt;em&gt;ParEx&lt;/em&gt; outperforms state-of-the-art solvers on a range of test problems where the derivative evaluation is moderately expensive.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/numerical-mathematics/extrapolation&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
