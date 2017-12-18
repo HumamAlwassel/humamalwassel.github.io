@@ -38,6 +38,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+  
   
   
   
@@ -46,6 +48,19 @@
   <link rel="stylesheet" href="/styles.css">
   
 
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-111353817-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
   
 
   
@@ -154,17 +169,32 @@
         
 
         
-
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#professional_experience" data-target="#professional_experience">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
-            <span>Professional Experience</span>
+            <span>Experience</span>
             
+            <span class="caret"></span>
           </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/#professional_experience" data-target="#professional_experience">
+                
+                <span>Professional Experience</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/#administrative_experience" data-target="#administrative_experience">
+                
+                <span>Administrative Experience</span>
+                
+              </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -180,23 +210,6 @@
           <a href="/#awards" data-target="#awards">
             
             <span>Awards</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#administrative_experience" data-target="#administrative_experience">
-            
-            <span>Administrative Experience</span>
             
           </a>
         </li>
@@ -254,8 +267,8 @@
     <div id="profile">
 
       
-      <div class="portrait" style="background-image: url('https://humamalwassel.github.io/img/humamalwassel.jpeg');"></div>
-      <meta itemprop="image" content="https://humamalwassel.github.io/img/humamalwassel.jpeg">
+      <div class="portrait" style="background-image: url('https://humamalwassel.github.io/img/humamalwassel.jpg');"></div>
+      <meta itemprop="image" content="https://humamalwassel.github.io/img/humamalwassel.jpg">
       
 
       <div class="portrait-title">
@@ -715,6 +728,16 @@ middle school and high school students an experience of more advanced topics i
     </ul>
 
     
+    <div class="hidden">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="22.308617">
+      <input id="map-lng" value="39.104506">
+      <input id="map-dir" value="4700 KAUST, Al Khawarizmi Building (Bldg 1), Office #2106-WS10, Thuwal 23955-6900, Saudi Arabia">
+      <input id="map-zoom" value="17">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
 
   </div>
 </div>
@@ -783,6 +806,8 @@ middle school and high school students an experience of more advanced topics i
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
     
     <script src="/js/hugo-academic.js"></script>
