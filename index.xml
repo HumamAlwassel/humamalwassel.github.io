@@ -18,6 +18,16 @@
       <guid>https://humamalwassel.github.io/publication/action-search/</guid>
       <description>
 
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel2018actionsearch,
+  title={Action Search: Spotting Targets in Untrimmed Videos and Its Application to Temporal Action Localization},
+  author={Alwassel, Humam and Caba Heilbron, Fabian and Ghanem, Bernard},
+  booktitle={European Conference on Computer Vision},
+  year={2018}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h4 id=&#34;the-code-and-human-searches-dataset-are-coming-soon&#34;&gt;The code and &lt;em&gt;Human Searches&lt;/em&gt; dataset are coming soon!&lt;/h4&gt;
 </description>
     </item>
@@ -28,7 +38,18 @@
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://humamalwassel.github.io/publication/detad/</guid>
-      <description></description>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel2018detad,
+  title={Diagnosing Error in Temporal Action Detectors},
+  author={Alwassel, Humam and Caba Heilbron, Fabian and Escorcia, Victor and Ghanem, Bernard},
+  booktitle={European Conference on Computer Vision},
+  year={2018}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
