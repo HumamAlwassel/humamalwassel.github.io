@@ -21,7 +21,7 @@
 &lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;@inproceedings{alwassel2018actionsearch,
-  title={Action Search: Spotting Targets in Untrimmed Videos and Its Application to Temporal Action Localization},
+  title={Action Search: Spotting Targets in Videos and Its Application to Temporal Action Localization},
   author={Alwassel, Humam and Caba Heilbron, Fabian and Ghanem, Bernard},
   booktitle={European Conference on Computer Vision},
   year={2018}
