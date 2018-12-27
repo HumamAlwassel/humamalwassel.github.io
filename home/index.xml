@@ -8,7 +8,136 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Humam Alwassel</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://humamalwassel.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic</title>
+      <link>https://humamalwassel.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release  
+(function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://humamalwassel.github.io/home/about/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/about/</guid>
+      <description>Biography I am a PhD student at King Abdullah University of Science and Technology (KAUST) in Saudi Arabia, currently focused on the development of novel computer vision techniques for video understanding. I am part of the diverse Image and Video Understanding Lab (IVUL) advised by Bernard Ghanem. I received my MSc degree in Computer Science from KAUST under Bernard Ghanem, and my undergraduate degree in both Computer Science and Mathematics from Cornell University.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://humamalwassel.github.io/home/news/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/news/</guid>
+      <description>[2018-09-15] Attended ECCV 2018 in Munich, Germany and presented our two accepted papers.
+[2018-07-03] 2 papers (Action Search and DETAD) accepted to ECCV 2018!!
+[2018-07-14] Attended ICVSS 2018 summer school in Sicily.
+[2018-06-22] Presented our DETAD work in the ActivityNet challenge workshop in CVPR18 (slides) and also released the code for the DETAD diagnosis tool.
+[2018-06-01] I&amp;rsquo;ll attend CVPR18. Come check out our ActivityNet challenge workshop on Friday, June 22.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://humamalwassel.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://humamalwassel.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://humamalwassel.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://humamalwassel.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Projects</title>
+      <link>https://humamalwassel.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional Experience</title>
+      <link>https://humamalwassel.github.io/home/professional_experience/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/professional_experience/</guid>
+      <description>The ActivityNet Large Scale Activity Recognition Challenge [2018] Co-organizer and Program Chair
+This challenge is the 3rd annual installment of the ActivityNet Large-Scale Activity Recognition Challenge, which was first hosted during CVPR 2016. It focuses on the recognition of daily life, high-level, goal-oriented activities from user-generated videos as those found in internet video portals. It was a full-day workshop held in CVPR 2018 in Salt Lake, Utah and held six diverse challenge tasks.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://humamalwassel.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://humamalwassel.github.io/home/awards/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/awards/</guid>
+      <description>KAUST Fellowship for MS and PhD Studies [2016-Present] A fellowship which supports students for the duration of their graduate studies at KAUST. It includes ​full tuition support, monthly living allowance, housing, and medical coverage.
+SACM Undergraduate Scholarship [2010-2016] A scholarship awarded by the Saudi Arabian Cultural Mission to the United States. It covers the full tuition for an undergraduate STEM degree at a US university.
+KAUST Gifted Student Program (KGSP) Scholarship [2010-2016] KGSP is a prestigious scholarship awarded by KAUST to a select group of Saudi students, allowing them to pursue undergraduate degrees in STEM fields in the US, and then complete their master’s degree at KAUST.</description>
+    </item>
+    
+    <item>
+      <title>Administrative Experience</title>
+      <link>https://humamalwassel.github.io/home/administrative_experience/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/administrative_experience/</guid>
+      <description>Graduate Tutor [2018] One-on-one tutoring sessions for graduate students in computer science and mathematics courses at KAUST.
+Graduate Teaching Assistant [2017] CS240: Computing Systems and Concurrency, Professor Marco Canini, Computer Science, KAUST. Undergraduate Teaching Assistant [2013] Math Explorers’ Club, Mathematics Department, Cornell University
+The Math Explorers’ Club is an NSF-supported project that develops materials and activities to give middle school and high school students an experience of more advanced topics in mathematics.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://humamalwassel.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://humamalwassel.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

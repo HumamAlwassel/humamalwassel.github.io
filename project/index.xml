@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Humam Alwassel</copyright>
     <lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://humamalwassel.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>FPEAnalysis: Automating Floating Point Error Analysis [2016]</title>
@@ -16,10 +18,7 @@
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://humamalwassel.github.io/project/fpeanalysis/</guid>
-      <description>&lt;p&gt;Manual floating-point error analysis of scientific computing code is tedious and error-prone. Under the supervision of &lt;a href=&#34;http://www.cs.cornell.edu/~bindel/&#34; target=&#34;_blank&#34;&gt;Professor David Bindel&lt;/a&gt; of computer science at Cornell University, I conducted my research to automated these analyses using the “1+ δ” error model and developed the &lt;em&gt;FPEAnalysis&lt;/em&gt; software system. &lt;em&gt;FPEAnalysis&lt;/em&gt; analyzes a piece of code, automatically reports any numerically unstable subexpressions, and gives insights for resolving these instabilities. The system can detect numerical instabilities in many textbook examples, leading Professor Bindel to use the system as an educational tool for his introductory scientific computing course.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/HumamAlwassel/FPEAnalysis&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Manual floating-point error analysis of scientific computing code is tedious and error-prone. Under the supervision of Professor David Bindel of computer science at Cornell University, I conducted my research to automated these analyses using the “1+ δ” error model and developed the FPEAnalysis software system. FPEAnalysis analyzes a piece of code, automatically reports any numerically unstable subexpressions, and gives insights for resolving these instabilities. The system can detect numerical instabilities in many textbook examples, leading Professor Bindel to use the system as an educational tool for his introductory scientific computing course.</description>
     </item>
     
     <item>
@@ -28,10 +27,7 @@
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://humamalwassel.github.io/project/gates_app/</guid>
-      <description>&lt;p&gt;Software-defined networking (SDN) is a relatively new paradigm for network management that allows a software-based controller to communicate with the individual network components to create optimal end-to-end routing policies. Following his recent development of the new NetKAT network language, &lt;a href=&#34;http://www.cs.cornell.edu/~jnfoster/&#34; target=&#34;_blank&#34;&gt;Professor Nate Foster&lt;/a&gt; of computer science at Cornell University supervised my independent study project to learn about this emerging new research field. This independent study concluded in the development of &lt;em&gt;Gates App&lt;/em&gt;, an SDN controller for the 28-switch network of Gates Hall, home of Cornell’s computer science department. &lt;em&gt;Gates App&lt;/em&gt; employs the &lt;a href=&#34;http://www.frenetic-lang.org/&#34; target=&#34;_blank&#34;&gt;Frenetic Project&lt;/a&gt; libraries to perform Ethernet routing and host discovery for a dynamically changing network.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/frenetic-lang/tutorials/tree/gates_app&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Software-defined networking (SDN) is a relatively new paradigm for network management that allows a software-based controller to communicate with the individual network components to create optimal end-to-end routing policies. Following his recent development of the new NetKAT network language, Professor Nate Foster of computer science at Cornell University supervised my independent study project to learn about this emerging new research field. This independent study concluded in the development of Gates App, an SDN controller for the 28-switch network of Gates Hall, home of Cornell’s computer science department.</description>
     </item>
     
     <item>
@@ -40,10 +36,7 @@
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://humamalwassel.github.io/project/parex/</guid>
-      <description>&lt;p&gt;State-of-the-art extrapolation-based solvers for ordinary differential equations (ODEs) are implemented sequentially. In my undergraduate research internship with &lt;a href=&#34;https://www.kaust.edu.sa/en/study/faculty/david-ketcheson&#34; target=&#34;_blank&#34;&gt;Professor David Ketcheson&lt;/a&gt; of applied mathematics at King Abdullah University of Science and Technology, I exploited the fact that under certain conditions, high-order extrapolation methods naturally admit an efficient multi-processor implementation. Thus, I developed &lt;em&gt;ParEx&lt;/em&gt;, an efficient shared-memory parallel implementation of explicit extrapolation methods for solving initial-value ODEs. Using a novel optimal load-balancing algorithm with adaptive step size and order control, &lt;em&gt;ParEx&lt;/em&gt; outperforms state-of-the-art solvers on a range of test problems where the derivative evaluation is moderately expensive.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/numerical-mathematics/extrapolation&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>State-of-the-art extrapolation-based solvers for ordinary differential equations (ODEs) are implemented sequentially. In my undergraduate research internship with Professor David Ketcheson of applied mathematics at King Abdullah University of Science and Technology, I exploited the fact that under certain conditions, high-order extrapolation methods naturally admit an efficient multi-processor implementation. Thus, I developed ParEx, an efficient shared-memory parallel implementation of explicit extrapolation methods for solving initial-value ODEs. Using a novel optimal load-balancing algorithm with adaptive step size and order control, ParEx outperforms state-of-the-art solvers on a range of test problems where the derivative evaluation is moderately expensive.</description>
     </item>
     
   </channel>
