@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Humam Alwassel</title>
+    <title>Tags | Humam Alwassel</title>
     <link>https://humamalwassel.github.io/tags/</link>
-    <description>Recent content in Tags on Humam Alwassel</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Humam Alwassel</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://humamalwassel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://humamalwassel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://humamalwassel.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://humamalwassel.github.io/tags/</link>
+    </image>
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
+      <title>Deep Learning</title>
+      <link>https://humamalwassel.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://humamalwassel.github.io/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
       <link>https://humamalwassel.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
+      <description></description>
     </item>
     
   </channel>

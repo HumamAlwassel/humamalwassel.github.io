@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabian Caba Heilbron | Humam Alwassel</title>
+    <link>https://humamalwassel.github.io/authors/fabian-caba-heilbron/</link>
+      <atom:link href="https://humamalwassel.github.io/authors/fabian-caba-heilbron/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fabian Caba Heilbron</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://humamalwassel.github.io/img/icon-192.png</url>
+      <title>Fabian Caba Heilbron</title>
+      <link>https://humamalwassel.github.io/authors/fabian-caba-heilbron/</link>
+    </image>
+    
+    <item>
+      <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
+      <link>https://humamalwassel.github.io/publication/refineloc/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@misc{alwassel2019refineloc,
+    title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
+    author={Humam Alwassel and Alejandro Pardo and Fabian Caba Heilbron and Ali Thabet and Bernard Ghanem},
+    year={2019},
+    eprint={1904.00227},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Action Search: Spotting Targets in Videos and Its Application to Temporal Action Localization</title>
+      <link>https://humamalwassel.github.io/publication/action-search/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/action-search/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel_2018_actionsearch,
+  title={Action Search: Spotting Targets in Videos and Its Application to Temporal Action Localization},
+  author={Alwassel, Humam and Caba Heilbron, Fabian and Ghanem, Bernard},
+  booktitle={The European Conference on Computer Vision (ECCV)},
+  month={September}
+  year={2018}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DETAD: Diagnosing Error in Temporal Action Detectors</title>
+      <link>https://humamalwassel.github.io/publication/detad/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/detad/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel_2018_detad,
+  title={Diagnosing Error in Temporal Action Detectors},
+  author={Alwassel, Humam and Caba Heilbron, Fabian and Escorcia, Victor and Ghanem, Bernard},
+  booktitle={The European Conference on Computer Vision (ECCV)},
+  month={September}
+  year={2018}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

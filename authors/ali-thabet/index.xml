@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ali Thabet | Humam Alwassel</title>
+    <link>https://humamalwassel.github.io/authors/ali-thabet/</link>
+      <atom:link href="https://humamalwassel.github.io/authors/ali-thabet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ali Thabet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://humamalwassel.github.io/img/icon-192.png</url>
+      <title>Ali Thabet</title>
+      <link>https://humamalwassel.github.io/authors/ali-thabet/</link>
+    </image>
+    
+    <item>
+      <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
+      <link>https://humamalwassel.github.io/publication/refineloc/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@misc{alwassel2019refineloc,
+    title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
+    author={Humam Alwassel and Alejandro Pardo and Fabian Caba Heilbron and Ali Thabet and Bernard Ghanem},
+    year={2019},
+    eprint={1904.00227},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MortonNet: Self-Supervised Learning of Local Features in 3D Point Clouds</title>
+      <link>https://humamalwassel.github.io/publication/mortonnet/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/mortonnet/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@misc{thabet2019mortonnet,
+    title={MortonNet: Self-Supervised Learning of Local Features in 3D Point Clouds},
+    author={Ali Thabet and Humam Alwassel and Bernard Ghanem},
+    year={2019},
+    eprint={1904.00230},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

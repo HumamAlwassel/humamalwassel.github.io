@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Humam Alwassel</title>
+    <link>https://humamalwassel.github.io/publication_types/3/</link>
+      <atom:link href="https://humamalwassel.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://humamalwassel.github.io/img/icon-192.png</url>
+      <title>3</title>
+      <link>https://humamalwassel.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Self-Supervised Learning by Cross-Modal Audio-Video Clustering</title>
+      <link>https://humamalwassel.github.io/publication/xdc/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/xdc/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex-coming-soon&#34;&gt;BibTex (coming soon)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;xdc-visualization-gallery&#34;&gt;XDC Visualization Gallery&lt;/h1&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the images below to view in full resolution and see the captions.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://humamalwassel.github.io/publication/xdc/gallery/0_xdc_pipeline_figure.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Overview of our framework.&amp;lt;/strong&amp;gt; We present Single-Modality Deep Clustering (SDC) baseline vs. our three different proposed models: Multi-Head Deep Clustering (MDC), Concatenation Deep Clustering (CDC), and Cross-Modal Deep Clustering (XDC) for multi-modal deep clustering. Unlabeled videos are inputted into the video and audio encoders (&amp;lt;em&amp;gt;E_v&amp;lt;/em&amp;gt; and &amp;lt;em&amp;gt;E_a&amp;lt;/em&amp;gt;) to produce visual and audio features (&amp;lt;em&amp;gt;f_v&amp;lt;/em&amp;gt; and &amp;lt;em&amp;gt;f_a&amp;lt;/em&amp;gt;). These features, or the concatenation of them, are clustered using &amp;lt;em&amp;gt;k&amp;lt;/em&amp;gt;-means. The cluster assignments are then used as pseudo-labels to train the two encoders. The process is started with randomly-initialized encoders, then alternates between clustering to generate pseudo-labels and training to improve the encoders. The four models employ different ways to cluster features and generate self-supervision signals for learning the visual and audio representations.&#34;&gt;
+  &lt;img src=&#34;https://humamalwassel.github.io/publication/xdc/gallery/0_xdc_pipeline_figure_huea2f144d01d04a705ca74fdcc27b1352_445228_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://humamalwassel.github.io/publication/xdc/gallery/1_xdc_top_2_visual_and_audio_clusters.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Visualization of XDC clusters on Kinetics videos&amp;lt;/strong&amp;gt;. We present the top-2 audio clusters (left) and the top-2 video clusters (right) in terms of purity with respect to the original Kinetics labels. For each cluster, we show a single frame of the 10 closest videos to the cluster centroid. Interestingly, our self-supervised XDC model learned to group videos of &amp;lt;code&amp;gt;scuba diving&amp;lt;/code&amp;gt; with &amp;lt;code&amp;gt;snorkeling&amp;lt;/code&amp;gt; (second left, cluster #105) based on their audio features and those of &amp;lt;code&amp;gt;scuba diving&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;feeding fish&amp;lt;/code&amp;gt; (rightmost, cluster #27) based on their visual features.&#34;&gt;
+  &lt;img src=&#34;https://humamalwassel.github.io/publication/xdc/gallery/1_xdc_top_2_visual_and_audio_clusters_hue087a574602fb413ff3819f76dd55da9_609603_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://humamalwassel.github.io/publication/xdc/gallery/2_xdc_audio_clusters_top_bottom_10.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;XDC audio clusters.&amp;lt;/strong&amp;gt; Top and bottom 10 XDC audio clusters ranked by clustering purity w.r.t. Kinetics labels. Each row presents a cluster where we show the center frame of the 10 clips that are nearest to the cluster center.&#34;&gt;
+  &lt;img src=&#34;https://humamalwassel.github.io/publication/xdc/gallery/2_xdc_audio_clusters_top_bottom_10_huc8bbd77e166e7afc67183fc1ed262197_2207529_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://humamalwassel.github.io/publication/xdc/gallery/3_xdc_visual_clusters_top_bottom_10.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;XDC video clusters.&amp;lt;/strong&amp;gt; Top and bottom 10 XDC video clusters ranked by clustering purity w.r.t. Kinetics labels. Each row presents a cluster where we show the center frame of the 10 clips that are nearest to the cluster center.&#34;&gt;
+  &lt;img src=&#34;https://humamalwassel.github.io/publication/xdc/gallery/3_xdc_visual_clusters_top_bottom_10_hu43a30e136d46fadb7e40a15ac067f35b_2253005_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://humamalwassel.github.io/publication/xdc/gallery/4_xdc_filters.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;R(2&amp;#43;1)D filters learned with self-supervised XDC vs. fully-supervised training.&amp;lt;/strong&amp;gt; (a) R(2&amp;#43;1)D &amp;lt;code&amp;gt;conv_1&amp;lt;/code&amp;gt; filters learned by fully-supervised training on Kinetics. (b) The same filters learned by self-supervised XDC pretraining on IG65M. XDC learns a more diverse set of temporal filters compared to fully-supervised pretraining.&#34;&gt;
+  &lt;img src=&#34;https://humamalwassel.github.io/publication/xdc/gallery/4_xdc_filters_hu96db66595d7ed781e43d10a9e23b53af_594106_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
+      <link>https://humamalwassel.github.io/publication/refineloc/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@misc{alwassel2019refineloc,
+    title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
+    author={Humam Alwassel and Alejandro Pardo and Fabian Caba Heilbron and Ali Thabet and Bernard Ghanem},
+    year={2019},
+    eprint={1904.00227},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MortonNet: Self-Supervised Learning of Local Features in 3D Point Clouds</title>
+      <link>https://humamalwassel.github.io/publication/mortonnet/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/mortonnet/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@misc{thabet2019mortonnet,
+    title={MortonNet: Self-Supervised Learning of Local Features in 3D Point Clouds},
+    author={Ali Thabet and Humam Alwassel and Bernard Ghanem},
+    year={2019},
+    eprint={1904.00230},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
