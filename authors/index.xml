@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title></title>
+      <link>https://humamalwassel.github.io/authors/admin/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a PhD student at &lt;a href=&#34;https://www.kaust.edu.sa&#34; target=&#34;_blank&#34;&gt;King Abdullah University of Science and Technology (KAUST)&lt;/a&gt; in Saudi Arabia, currently focused on the development of novel computer vision techniques for video understanding. I am part of the diverse &lt;a href=&#34;https://ivul.kaust.edu.sa/&#34; target=&#34;_blank&#34;&gt;Image and Video Understanding Lab (IVUL)&lt;/a&gt; advised by &lt;a href=&#34;http://www.bernardghanem.com&#34; target=&#34;_blank&#34;&gt;Bernard Ghanem&lt;/a&gt;. I received my MSc degree in Computer Science from KAUST under Bernard Ghanem, and my undergraduate degree in both Computer Science and Mathematics from &lt;a href=&#34;https://www.cornell.edu&#34; target=&#34;_blank&#34;&gt;Cornell University&lt;/a&gt;. My main research interests are in video understanding and human activity detection. In general, I am interested in computer vision and machine learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>**Humam Alwassel**</title>
       <link>https://humamalwassel.github.io/authors/humam-alwassel/</link>
       <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
@@ -82,15 +91,6 @@
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/victor-escorcia/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://humamalwassel.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://humamalwassel.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a PhD student at &lt;a href=&#34;https://www.kaust.edu.sa&#34; target=&#34;_blank&#34;&gt;King Abdullah University of Science and Technology (KAUST)&lt;/a&gt; in Saudi Arabia, currently focused on the development of novel computer vision techniques for video understanding. I am part of the diverse &lt;a href=&#34;https://ivul.kaust.edu.sa/&#34; target=&#34;_blank&#34;&gt;Image and Video Understanding Lab (IVUL)&lt;/a&gt; advised by &lt;a href=&#34;http://www.bernardghanem.com&#34; target=&#34;_blank&#34;&gt;Bernard Ghanem&lt;/a&gt;. I received my MSc degree in Computer Science from KAUST under Bernard Ghanem, and my undergraduate degree in both Computer Science and Mathematics from &lt;a href=&#34;https://www.cornell.edu&#34; target=&#34;_blank&#34;&gt;Cornell University&lt;/a&gt;. My main research interests are in video understanding and human activity detection. In general, I am interested in computer vision and machine learning.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
