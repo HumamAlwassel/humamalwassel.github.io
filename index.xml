@@ -56,13 +56,13 @@
 
 &lt;h3 id=&#34;visualizing-xdc-clusters&#34;&gt;Visualizing XDC Clusters&lt;/h3&gt;
 
-&lt;p&gt;We visualize the audio and visual clusters of XDC self-supervised Kinetics-pretrained model. For each cluster, we shows the 10 nearest clips to the cluster center. The lists of clusters below are ordered by clustering purity w.r.t Kinetics labels.&lt;/p&gt;
+&lt;p&gt;We visualize the audio and visual clusters of XDC self-supervised Kinetics-pretrained model. For each cluster, we shows the 10 nearest clips to the cluster center. The lists of clusters below are ordered by clustering purity w.r.t. Kinetics labels.&lt;/p&gt;
 
 &lt;p&gt;&lt;form onchange=&#34;create_dropdown()&#34;&gt;
     &lt;input type=&#34;radio&#34; name=&#34;modality&#34; value=&#34;audio&#34; checked=&#34;true&#34;&gt; &lt;strong&gt;Audio Clusters &lt;em&gt;[listen]&lt;/em&gt;&lt;/strong&gt; &lt;br&gt;
     &lt;input type=&#34;radio&#34; name=&#34;modality&#34; value=&#34;visual&#34;&gt; &lt;strong&gt;Visual Clusters &lt;em&gt;[look]&lt;/em&gt;&lt;/strong&gt;
 &lt;/form&gt;
-Cluster #&lt;select id=&#34;dropdown&#34; onchange=&#34;load_videos()&#34;&gt;&lt;/select&gt; (ordered by clustering purity w.r.t Kinetics labels)
+Cluster #&lt;select id=&#34;dropdown&#34; onchange=&#34;load_videos()&#34;&gt;&lt;/select&gt; (ordered by clustering purity w.r.t. Kinetics labels)
 &lt;div id=&#34;video-container&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;xdc-gallery&#34;&gt;XDC Gallery&lt;/h3&gt;
