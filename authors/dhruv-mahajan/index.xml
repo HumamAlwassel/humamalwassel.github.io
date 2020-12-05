@@ -5,7 +5,7 @@
     <link>https://humamalwassel.github.io/authors/dhruv-mahajan/</link>
       <atom:link href="https://humamalwassel.github.io/authors/dhruv-mahajan/index.xml" rel="self" type="application/rss+xml" />
     <description>Dhruv Mahajan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>Dhruv Mahajan</title>
@@ -15,31 +15,43 @@
     <item>
       <title>Self-Supervised Learning by Cross-Modal Audio-Video Clustering</title>
       <link>https://humamalwassel.github.io/publication/xdc/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/publication/xdc/</guid>
       <description>
 
 &lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;@misc{alwassel2019selfsupervised,
-    title={Self-Supervised Learning by Cross-Modal Audio-Video Clustering},
-    author={Humam Alwassel and Dhruv Mahajan and Lorenzo Torresani and Bernard Ghanem and Du Tran},
-    year={2019},
-    eprint={1911.12667},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel_2020_xdc,
+  title={Self-Supervised Learning by Cross-Modal Audio-Video Clustering},
+  author={Alwassel, Humam and Mahajan, Dhruv and Korbar, Bruno and 
+          Torresani, Lorenzo and Ghanem, Bernard and Tran, Du},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2020}
 }
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;h3 id=&#34;pretrained-model-weights&#34;&gt;Pretrained Model Weights&lt;/h3&gt;
+
+&lt;p&gt;You can load all our pretrained models using &lt;code&gt;torch.hub.load()&lt;/code&gt; API.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import torch
+
+model = torch.hub.load(&#39;HumamAlwassel/XDC&#39;, &#39;xdc_video_encoder&#39;, 
+                        pretraining=&#39;r2plus1d_18_xdc_ig65m_kinetics&#39;,
+                        num_classes=42)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run &lt;code&gt;print(torch.hub.help(&#39;HumamAlwassel/XDC&#39;, &#39;xdc_video_encoder&#39;))&lt;/code&gt; for the model documentation, and visit our GitHub &lt;a href=&#34;https://github.com/HumamAlwassel/XDC&#34; target=&#34;_blank&#34;&gt;repo&lt;/a&gt; for more details. Learn more about PyTorch Hub &lt;a href=&#34;https://pytorch.org/hub/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h3 id=&#34;visualizing-xdc-clusters&#34;&gt;Visualizing XDC Clusters&lt;/h3&gt;
 
-&lt;p&gt;We visualize the audio and visual clusters of XDC self-supervised Kinetics-pretrained model. For each cluster, we shows the 10 nearest clips to the cluster center. The lists of clusters below are ordered by clustering purity w.r.t. Kinetics labels.&lt;/p&gt;
+&lt;p&gt;We visualize the audio and visual clusters of XDC self-supervised Kinetics-pretrained model. For each cluster, we shows the 10 nearest clips to the cluster center. The lists of clusters below are ordered by clustering purity &lt;em&gt;w.r.t.&lt;/em&gt; Kinetics labels.&lt;/p&gt;
 
 &lt;p&gt;&lt;form onchange=&#34;create_dropdown()&#34;&gt;
     &lt;input type=&#34;radio&#34; name=&#34;modality&#34; value=&#34;audio&#34; checked=&#34;true&#34;&gt; &lt;strong&gt;Audio Clusters &lt;em&gt;[listen]&lt;/em&gt;&lt;/strong&gt; &lt;br&gt;
     &lt;input type=&#34;radio&#34; name=&#34;modality&#34; value=&#34;visual&#34;&gt; &lt;strong&gt;Visual Clusters &lt;em&gt;[look]&lt;/em&gt;&lt;/strong&gt;
 &lt;/form&gt;
-Cluster #&lt;select id=&#34;dropdown&#34; onchange=&#34;load_videos()&#34;&gt;&lt;/select&gt; (ordered by clustering purity w.r.t. Kinetics labels)
+Cluster #&lt;select id=&#34;dropdown&#34; onchange=&#34;load_videos()&#34;&gt;&lt;/select&gt; (ordered by clustering purity &lt;em&gt;w.r.t.&lt;/em&gt; Kinetics labels)
 &lt;div id=&#34;video-container&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;xdc-gallery&#34;&gt;XDC Gallery&lt;/h3&gt;
@@ -67,10 +79,10 @@ Cluster #&lt;select id=&#34;dropdown&#34; onchange=&#34;load_videos()&#34;&gt;&l
 
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/xdc/xdc_gallery/4_xdc_filters.png&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://humamalwassel.github.io/xdc/xdc_gallery/4_xdc_filters.png&#34; alt=&#34;R(2&amp;#43;1)D filters learned with self-supervised XDC vs. fully-supervised training. (a) R(2&amp;#43;1)D &amp;#39;&amp;#39;conv_1&amp;#39;&amp;#39; filters learned by fully-supervised training on Kinetics. (b) The same filters learned by self-supervised XDC pretraining on IG65M. XDC learns a more diverse set of temporal filters compared to fully-supervised pretraining.&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/xdc/xdc_gallery/1_xdc_filters.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://humamalwassel.github.io/xdc/xdc_gallery/1_xdc_filters.png&#34; alt=&#34;R(2&amp;#43;1)D filters learned with self-supervised XDC vs. fully-supervised training. (a) R(2&amp;#43;1)D &amp;#39;&amp;#39;conv_1&amp;#39;&amp;#39; filters learned by fully-supervised training on Kinetics. (b) The same filters learned by self-supervised XDC pretraining on IG65M. XDC learns a more diverse set of temporal filters compared to fully-supervised pretraining.&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://humamalwassel.github.io/xdc/xdc_gallery/4_xdc_filters.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://humamalwassel.github.io/xdc/xdc_gallery/1_xdc_filters.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;R(2&amp;#43;1)D filters learned with self-supervised XDC vs. fully-supervised training. (a) R(2&amp;#43;1)D &amp;#39;&amp;#39;conv_1&amp;#39;&amp;#39; filters learned by fully-supervised training on Kinetics. (b) The same filters learned by self-supervised XDC pretraining on IG65M. XDC learns a more diverse set of temporal filters compared to fully-supervised pretraining.&lt;/p&gt;
       &lt;/figcaption&gt;

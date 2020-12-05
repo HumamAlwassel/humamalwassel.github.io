@@ -5,7 +5,7 @@
     <link>https://humamalwassel.github.io/authors/</link>
       <atom:link href="https://humamalwassel.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>**Humam Alwassel**</title>
       <link>https://humamalwassel.github.io/authors/humam-alwassel/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/humam-alwassel/</guid>
       <description></description>
     </item>
@@ -23,15 +23,23 @@
     <item>
       <title>Bernard Ghanem</title>
       <link>https://humamalwassel.github.io/authors/bernard-ghanem/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/bernard-ghanem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bruno Korbar</title>
+      <link>https://humamalwassel.github.io/authors/bruno-korbar/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/authors/bruno-korbar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dhruv Mahajan</title>
       <link>https://humamalwassel.github.io/authors/dhruv-mahajan/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/dhruv-mahajan/</guid>
       <description></description>
     </item>
@@ -39,7 +47,7 @@
     <item>
       <title>Du Tran</title>
       <link>https://humamalwassel.github.io/authors/du-tran/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/du-tran/</guid>
       <description></description>
     </item>
@@ -47,7 +55,7 @@
     <item>
       <title>Lorenzo Torresani</title>
       <link>https://humamalwassel.github.io/authors/lorenzo-torresani/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/lorenzo-torresani/</guid>
       <description></description>
     </item>
