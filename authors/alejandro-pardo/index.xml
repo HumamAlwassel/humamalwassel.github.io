@@ -5,7 +5,7 @@
     <link>https://humamalwassel.github.io/authors/alejandro-pardo/</link>
       <atom:link href="https://humamalwassel.github.io/authors/alejandro-pardo/index.xml" rel="self" type="application/rss+xml" />
     <description>Alejandro Pardo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>Alejandro Pardo</title>
@@ -15,19 +15,19 @@
     <item>
       <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
       <link>https://humamalwassel.github.io/publication/refineloc/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
       <description>
 
 &lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;@misc{alwassel2019refineloc,
-    title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
-    author={Humam Alwassel and Alejandro Pardo and Fabian Caba Heilbron and Ali Thabet and Bernard Ghanem},
-    year={2019},
-    eprint={1904.00227},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+&lt;pre&gt;&lt;code&gt;@InProceedings{pardo_2021_refineloc,
+  title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
+  author={Pardo, Alejandro and Alwassel, Humam and Heilbron, Fabian Caba and 
+          Thabet, Ali and Ghanem, Bernard},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of 
+             Computer Vision (WACV)},
+  year={2021}
 }
 &lt;/code&gt;&lt;/pre&gt;
 </description>

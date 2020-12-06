@@ -5,12 +5,33 @@
     <link>https://humamalwassel.github.io/publication/</link>
       <atom:link href="https://humamalwassel.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://humamalwassel.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
+      <link>https://humamalwassel.github.io/publication/refineloc/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@InProceedings{pardo_2021_refineloc,
+  title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
+  author={Pardo, Alejandro and Alwassel, Humam and Heilbron, Fabian Caba and 
+          Thabet, Ali and Ghanem, Bernard},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of 
+             Computer Vision (WACV)},
+  year={2021}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Self-Supervised Learning by Cross-Modal Audio-Video Clustering</title>
@@ -349,42 +370,40 @@ window.onload = create_dropdown;
     </item>
     
     <item>
-      <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
-      <link>https://humamalwassel.github.io/publication/refineloc/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
+      <title>TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks</title>
+      <link>https://humamalwassel.github.io/publication/tsp/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/tsp/</guid>
       <description>
 
 &lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;@misc{alwassel2019refineloc,
-    title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
-    author={Humam Alwassel and Alejandro Pardo and Fabian Caba Heilbron and Ali Thabet and Bernard Ghanem},
-    year={2019},
-    eprint={1904.00227},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+&lt;pre&gt;&lt;code&gt;@article{alwassel2020tsp,
+  title={TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks},
+  author={Alwassel, Humam and Giancola, Silvio and Ghanem, Bernard},
+  journal={arXiv preprint arXiv:2011.11479},
+  year={2020}
 }
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
-      <title>MortonNet: Self-Supervised Learning of Local Features in 3D Point Clouds</title>
+      <title>Self-Supervised Learning of Local Features in 3D Point Clouds</title>
       <link>https://humamalwassel.github.io/publication/mortonnet/</link>
-      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/publication/mortonnet/</guid>
       <description>
 
 &lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;@misc{thabet2019mortonnet,
-    title={MortonNet: Self-Supervised Learning of Local Features in 3D Point Clouds},
-    author={Ali Thabet and Humam Alwassel and Bernard Ghanem},
-    year={2019},
-    eprint={1904.00230},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+&lt;pre&gt;&lt;code&gt;@InProceedings{Thabet_2020_CVPR_Workshops,
+author = {Thabet, Ali and Alwassel, Humam and Ghanem, Bernard},
+title = {Self-Supervised Learning of Local Features in 3D Point Clouds},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision 
+             and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2020}
 }
 &lt;/code&gt;&lt;/pre&gt;
 </description>

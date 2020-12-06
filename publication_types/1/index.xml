@@ -5,12 +5,33 @@
     <link>https://humamalwassel.github.io/publication_types/1/</link>
       <atom:link href="https://humamalwassel.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://humamalwassel.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
+      <link>https://humamalwassel.github.io/publication/refineloc/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/refineloc/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@InProceedings{pardo_2021_refineloc,
+  title={RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization},
+  author={Pardo, Alejandro and Alwassel, Humam and Heilbron, Fabian Caba and 
+          Thabet, Ali and Ghanem, Bernard},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of 
+             Computer Vision (WACV)},
+  year={2021}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Self-Supervised Learning by Cross-Modal Audio-Video Clustering</title>
@@ -345,6 +366,27 @@ window.onload = create_dropdown;
 &lt;script src=&#34;https://humamalwassel.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Supervised Learning of Local Features in 3D Point Clouds</title>
+      <link>https://humamalwassel.github.io/publication/mortonnet/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/mortonnet/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@InProceedings{Thabet_2020_CVPR_Workshops,
+author = {Thabet, Ali and Alwassel, Humam and Ghanem, Bernard},
+title = {Self-Supervised Learning of Local Features in 3D Point Clouds},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision 
+             and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2020}
+}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

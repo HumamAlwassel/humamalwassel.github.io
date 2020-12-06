@@ -5,7 +5,7 @@
     <link>https://humamalwassel.github.io/authors/</link>
       <atom:link href="https://humamalwassel.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,16 +15,40 @@
     <item>
       <title>**Humam Alwassel**</title>
       <link>https://humamalwassel.github.io/authors/humam-alwassel/</link>
-      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/humam-alwassel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alejandro Pardo</title>
+      <link>https://humamalwassel.github.io/authors/alejandro-pardo/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/authors/alejandro-pardo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ali Thabet</title>
+      <link>https://humamalwassel.github.io/authors/ali-thabet/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/authors/ali-thabet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bernard Ghanem</title>
       <link>https://humamalwassel.github.io/authors/bernard-ghanem/</link>
-      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://humamalwassel.github.io/authors/bernard-ghanem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabian Caba Heilbron</title>
+      <link>https://humamalwassel.github.io/authors/fabian-caba-heilbron/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/authors/fabian-caba-heilbron/</guid>
       <description></description>
     </item>
     
@@ -61,26 +85,10 @@
     </item>
     
     <item>
-      <title>Alejandro Pardo</title>
-      <link>https://humamalwassel.github.io/authors/alejandro-pardo/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://humamalwassel.github.io/authors/alejandro-pardo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ali Thabet</title>
-      <link>https://humamalwassel.github.io/authors/ali-thabet/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://humamalwassel.github.io/authors/ali-thabet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fabian Caba Heilbron</title>
-      <link>https://humamalwassel.github.io/authors/fabian-caba-heilbron/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://humamalwassel.github.io/authors/fabian-caba-heilbron/</guid>
+      <title>Silvio Giancola</title>
+      <link>https://humamalwassel.github.io/authors/silvio-giancola/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/authors/silvio-giancola/</guid>
       <description></description>
     </item>
     
