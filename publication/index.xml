@@ -5,12 +5,31 @@
     <link>https://humamalwassel.github.io/publication/</link>
       <atom:link href="https://humamalwassel.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://humamalwassel.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks</title>
+      <link>https://humamalwassel.github.io/publication/tsp/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/tsp/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel_2021_tsp,
+  title={TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks},
+  author={Alwassel, Humam and Giancola, Silvio and Ghanem, Bernard},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+  year={2021}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
@@ -366,25 +385,6 @@ window.onload = create_dropdown;
 &lt;script src=&#34;https://humamalwassel.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks</title>
-      <link>https://humamalwassel.github.io/publication/tsp/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://humamalwassel.github.io/publication/tsp/</guid>
-      <description>
-
-&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;@article{alwassel2020tsp,
-  title={TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks},
-  author={Alwassel, Humam and Giancola, Silvio and Ghanem, Bernard},
-  journal={arXiv preprint arXiv:2011.11479},
-  year={2020}
-}
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

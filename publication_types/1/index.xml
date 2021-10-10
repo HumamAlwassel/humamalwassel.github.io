@@ -5,12 +5,31 @@
     <link>https://humamalwassel.github.io/publication_types/1/</link>
       <atom:link href="https://humamalwassel.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Humam Alwassel</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://humamalwassel.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://humamalwassel.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks</title>
+      <link>https://humamalwassel.github.io/publication/tsp/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://humamalwassel.github.io/publication/tsp/</guid>
+      <description>
+
+&lt;h3 id=&#34;bibtex&#34;&gt;BibTex&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{alwassel_2021_tsp,
+  title={TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks},
+  author={Alwassel, Humam and Giancola, Silvio and Ghanem, Bernard},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+  year={2021}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization</title>
